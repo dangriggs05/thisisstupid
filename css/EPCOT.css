@@ -1,0 +1,63 @@
+/* Apply background image to the entire body */
+body {
+    background-image: url('../assets/img/epcot-bay-lake-2880x1800-9668.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000; /* Fallback background color */
+    color: rgb(202, 214, 221);
+    margin: 0; /* Remove any default margin */
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header styling */
+header.common-header {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(220, 217, 217);
+    margin: 0; /* Remove any default margin */
+}
+
+/* Main body styling */
+main.mainbody {
+    height: 1000px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0; /* Remove any margin */
+}
+
+/* Navigation styling */
+nav {
+    padding: 10px;
+    color: beige;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    margin-bottom: 0; /* Ensure no bottom margin */
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(220, 217, 217);
+}
+
+nav a:hover {
+    background-color: rgb(39, 38, 36);
+}
+
+/* Footer styling */
+footer.common-footer {
+    position: fixed;
+    background-color: rgb(135, 163, 222);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0; /* Ensure no margin */
+}
